@@ -1,37 +1,46 @@
-<form action="action_page.php">
-  <div class="container">
-    <h1>New user Register for DevOps Learning</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
-     
-    <label for="Name"><b>Enter Name</b></label>
-    <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
-    <br>
-    
-    <label for="mobile"><b>Enter mobile</b></label>
-    <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
-    <br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang bán hàng điện tử</title>
+  <style>
+    /* CSS styles here */
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Trang bán hàng điện tử</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Trang chủ</a></li>
+        <li><a href="#">Sản phẩm</a></li>
+        <li><a href="#">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <label for="email"><b>Enter Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
+  <main>
+    <section class="products">
+      <h2>Sản phẩm</h2>
+      <div class="product">
+        <img src="product1.jpg" alt="Sản phẩm 1">
+        <h3>Tên sản phẩm 1</h3>
+        <p>Mô tả sản phẩm 1</p>
+        <button>Mua ngay</button>
+      </div>
+      <div class="product">
+        <img src="product2.jpg" alt="Sản phẩm 2">
+        <h3>Tên sản phẩm 2</h3>
+        <p>Mô tả sản phẩm 2</p>
+        <button>Mua ngay</button>
+      </div>
+      <!-- Thêm sản phẩm khác tại đây -->
+    </section>
+  </main>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    <br>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <hr>
-    <br>
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
-
-   <h1> Thankyou, Happy Learning </h1>
-
-  
-</form>
+  <footer>
+    <p>&copy; 2022 Trang bán hàng điện tử. All rights reserved.</p>
+  </footer>
+</body>
+</html>
