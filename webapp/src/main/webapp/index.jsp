@@ -1,7 +1,7 @@
 <form action="action_page.php">
   <div class="container">
     <h1>Register</h1>
-    <p>Điền vào mẫu để đăng kí.</p>
+    <p>Dien vao mau dang ki</p>
     <hr>
 
     <label for="email"><b>Email</b></label>
