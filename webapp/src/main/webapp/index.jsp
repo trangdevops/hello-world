@@ -1,7 +1,7 @@
 <form action="action_page.php">
   <div class="container">
     <h1>Register</h1>
-    <p>Dien vao mau dang ki</p>
+    <p>Dien vao mau dang ki nhe</p>
     <hr>
 
     <label for="email"><b>Email</b></label>
